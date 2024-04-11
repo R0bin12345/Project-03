@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic style to the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Set the body to at least the height of the viewport */
+}
+
+/* Style the header */
+header {
+    background-color: #DF0000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the main content area */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #312F2F;
+    /* Your desired background color */
+    color: white;
+    /* Text color */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Style the footer */
+footer {
+    background-color: lightslategray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+
+/* Stijl voor de formuliercontainer */
+.form-container {
+    border: 1px solid #ccc;
+    /* Randstijl */
+    padding: 20px;
+    /* Ruimte binnen de rand */
+    max-width: 400px;
+    /* Maximale breedte van de container */
+    margin: 0 auto;
+    /* Centreer de container op de pagina */
+}
+
+.button {
+    background-color: #DF0000;
+}
+
+/* Set text color inside table cells to white */
+table td {
+    color: white;
+}
+
+/* Add spacing between table columns */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    /* Add border around the table */
+}
+
+/* Set text color inside table cells to white */
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* Add border bottom for each cell */
+    border-right: 1px solid #ddd;
+    /* Add border right for each cell */
+    color: white;
+    /* Set text color to white */
+}
+
+/* Remove border right for the last column */
+th:last-child,
+td:last-child {
+    border-right: none;
+}
+
+/* Add some space between the table header and content */
+.fixed-header {
+    margin-bottom: 10px;
+}
+
+/* Stijlregels voor de bar-elementen */
+.bar {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
